@@ -6,9 +6,12 @@ Noodle - WordPress Theme
 2.Noodle是在Arbitrary1.2基础上修改   
 
 ### 已知BUG   
-1.搜索有问题   
+1.搜索有问题[fixed 20131020]   
 
-### 变更历史   
+### 变更历史  
+
+#### Noodle v1.0.1   
+1.加入搜索页面
 
 #### Noodle v1.0.0   
 1.侧边栏加入置顶文章。   
