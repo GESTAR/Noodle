@@ -26,7 +26,7 @@ get_header();
 							array_push($all[$year], $mon);
 							$output .= "<div class='archive-title' id='arti-$year-$mon'><h3>$year-$mon</h3><div class='archives archives-$mon' data-date='$year-$mon'>"; //输出月份
 						 }
-						 $output .= '<div class="brick"><a href="'.get_permalink() .'"><span class="time">&emsp;&emsp;['.get_the_time('n-d').']</span>'.get_the_title() .'<em style="float:right">'.   get_comments_number('0', '1', '%') .' comments</em></a></div>'; //输出文章日期和标题
+						 $output .= '<div class="brick"><a href="'.get_permalink() .'"><span class="time">&emsp;&emsp;['.get_the_time('n-d').']</span>'.get_the_title() .'<em style="float:right">'. the_views(false) .'</em></a></div>'; //输出文章日期和标题
 					endwhile;
 					wp_reset_postdata();
 					$output .= '</div></div></div>';
